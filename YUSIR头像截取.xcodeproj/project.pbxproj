@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB5F63E41CA26CC7000ABCA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5F63E31CA26CC7000ABCA5 /* main.m */; };
+		FB5F63E71CA26CC7000ABCA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5F63E61CA26CC7000ABCA5 /* AppDelegate.m */; };
+		FB5F63EA1CA26CC7000ABCA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5F63E91CA26CC7000ABCA5 /* ViewController.m */; };
+		FB5F63ED1CA26CC7000ABCA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5F63EB1CA26CC7000ABCA5 /* Main.storyboard */; };
+		FB5F63EF1CA26CC7000ABCA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5F63EE1CA26CC7000ABCA5 /* Assets.xcassets */; };
+		FB5F63F21CA26CC7000ABCA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5F63F01CA26CC7000ABCA5 /* LaunchScreen.storyboard */; };
+		FB5F63FD1CA26CC7000ABCA5 /* YUSIR____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5F63FC1CA26CC7000ABCA5 /* YUSIR____Tests.m */; };
+		FB5F64081CA26CC7000ABCA5 /* YUSIR____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5F64071CA26CC7000ABCA5 /* YUSIR____UITests.m */; };
+		FB5F64161CA2765F000ABCA5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB5F64151CA2765F000ABCA5 /* AVFoundation.framework */; };
+		FB5F64181CA2766E000ABCA5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB5F64171CA2766E000ABCA5 /* MobileCoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB5F63F91CA26CC7000ABCA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB5F63D71CA26CC6000ABCA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB5F63DE1CA26CC6000ABCA5;
+			remoteInfo = "YUSIR头像截取";
+		};
+		FB5F64041CA26CC7000ABCA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB5F63D71CA26CC6000ABCA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB5F63DE1CA26CC6000ABCA5;
+			remoteInfo = "YUSIR头像截取";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB5F63DF1CA26CC6000ABCA5 /* YUSIR头像截取.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YUSIR头像截取.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB5F63E31CA26CC7000ABCA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB5F63E51CA26CC7000ABCA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB5F63E61CA26CC7000ABCA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB5F63E81CA26CC7000ABCA5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FB5F63E91CA26CC7000ABCA5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB5F63EC1CA26CC7000ABCA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB5F63EE1CA26CC7000ABCA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB5F63F11CA26CC7000ABCA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB5F63F31CA26CC7000ABCA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB5F63F81CA26CC7000ABCA5 /* YUSIR头像截取Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YUSIR头像截取Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB5F63FC1CA26CC7000ABCA5 /* YUSIR____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YUSIR____Tests.m"; sourceTree = "<group>"; };
+		FB5F63FE1CA26CC7000ABCA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB5F64031CA26CC7000ABCA5 /* YUSIR头像截取UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YUSIR头像截取UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB5F64071CA26CC7000ABCA5 /* YUSIR____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YUSIR____UITests.m"; sourceTree = "<group>"; };
+		FB5F64091CA26CC7000ABCA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB5F64151CA2765F000ABCA5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FB5F64171CA2766E000ABCA5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB5F63DC1CA26CC6000ABCA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5F64181CA2766E000ABCA5 /* MobileCoreServices.framework in Frameworks */,
+				FB5F64161CA2765F000ABCA5 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5F63F51CA26CC7000ABCA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5F64001CA26CC7000ABCA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB5F63D61CA26CC6000ABCA5 = {
+			isa = PBXGroup;
+			children = (
+				FB5F64171CA2766E000ABCA5 /* MobileCoreServices.framework */,
+				FB5F64151CA2765F000ABCA5 /* AVFoundation.framework */,
+				FB5F63E11CA26CC7000ABCA5 /* YUSIR头像截取 */,
+				FB5F63FB1CA26CC7000ABCA5 /* YUSIR头像截取Tests */,
+				FB5F64061CA26CC7000ABCA5 /* YUSIR头像截取UITests */,
+				FB5F63E01CA26CC6000ABCA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB5F63E01CA26CC6000ABCA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB5F63DF1CA26CC6000ABCA5 /* YUSIR头像截取.app */,
+				FB5F63F81CA26CC7000ABCA5 /* YUSIR头像截取Tests.xctest */,
+				FB5F64031CA26CC7000ABCA5 /* YUSIR头像截取UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB5F63E11CA26CC7000ABCA5 /* YUSIR头像截取 */ = {
+			isa = PBXGroup;
+			children = (
+				FB5F63E51CA26CC7000ABCA5 /* AppDelegate.h */,
+				FB5F63E61CA26CC7000ABCA5 /* AppDelegate.m */,
+				FB5F63E81CA26CC7000ABCA5 /* ViewController.h */,
+				FB5F63E91CA26CC7000ABCA5 /* ViewController.m */,
+				FB5F63EB1CA26CC7000ABCA5 /* Main.storyboard */,
+				FB5F63EE1CA26CC7000ABCA5 /* Assets.xcassets */,
+				FB5F63F01CA26CC7000ABCA5 /* LaunchScreen.storyboard */,
+				FB5F63F31CA26CC7000ABCA5 /* Info.plist */,
+				FB5F63E21CA26CC7000ABCA5 /* Supporting Files */,
+			);
+			path = "YUSIR头像截取";
+			sourceTree = "<group>";
+		};
+		FB5F63E21CA26CC7000ABCA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB5F63E31CA26CC7000ABCA5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB5F63FB1CA26CC7000ABCA5 /* YUSIR头像截取Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FB5F63FC1CA26CC7000ABCA5 /* YUSIR____Tests.m */,
+				FB5F63FE1CA26CC7000ABCA5 /* Info.plist */,
+			);
+			path = "YUSIR头像截取Tests";
+			sourceTree = "<group>";
+		};
+		FB5F64061CA26CC7000ABCA5 /* YUSIR头像截取UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB5F64071CA26CC7000ABCA5 /* YUSIR____UITests.m */,
+				FB5F64091CA26CC7000ABCA5 /* Info.plist */,
+			);
+			path = "YUSIR头像截取UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB5F63DE1CA26CC6000ABCA5 /* YUSIR头像截取 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB5F640C1CA26CC7000ABCA5 /* Build configuration list for PBXNativeTarget "YUSIR头像截取" */;
+			buildPhases = (
+				FB5F63DB1CA26CC6000ABCA5 /* Sources */,
+				FB5F63DC1CA26CC6000ABCA5 /* Frameworks */,
+				FB5F63DD1CA26CC6000ABCA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YUSIR头像截取";
+			productName = "YUSIR头像截取";
+			productReference = FB5F63DF1CA26CC6000ABCA5 /* YUSIR头像截取.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB5F63F71CA26CC7000ABCA5 /* YUSIR头像截取Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB5F640F1CA26CC7000ABCA5 /* Build configuration list for PBXNativeTarget "YUSIR头像截取Tests" */;
+			buildPhases = (
+				FB5F63F41CA26CC7000ABCA5 /* Sources */,
+				FB5F63F51CA26CC7000ABCA5 /* Frameworks */,
+				FB5F63F61CA26CC7000ABCA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB5F63FA1CA26CC7000ABCA5 /* PBXTargetDependency */,
+			);
+			name = "YUSIR头像截取Tests";
+			productName = "YUSIR头像截取Tests";
+			productReference = FB5F63F81CA26CC7000ABCA5 /* YUSIR头像截取Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB5F64021CA26CC7000ABCA5 /* YUSIR头像截取UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB5F64121CA26CC7000ABCA5 /* Build configuration list for PBXNativeTarget "YUSIR头像截取UITests" */;
+			buildPhases = (
+				FB5F63FF1CA26CC7000ABCA5 /* Sources */,
+				FB5F64001CA26CC7000ABCA5 /* Frameworks */,
+				FB5F64011CA26CC7000ABCA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB5F64051CA26CC7000ABCA5 /* PBXTargetDependency */,
+			);
+			name = "YUSIR头像截取UITests";
+			productName = "YUSIR头像截取UITests";
+			productReference = FB5F64031CA26CC7000ABCA5 /* YUSIR头像截取UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB5F63D71CA26CC6000ABCA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = YUSIR;
+				TargetAttributes = {
+					FB5F63DE1CA26CC6000ABCA5 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = H2625W7SEG;
+					};
+					FB5F63F71CA26CC7000ABCA5 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = H2625W7SEG;
+						TestTargetID = FB5F63DE1CA26CC6000ABCA5;
+					};
+					FB5F64021CA26CC7000ABCA5 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = H2625W7SEG;
+						TestTargetID = FB5F63DE1CA26CC6000ABCA5;
+					};
+				};
+			};
+			buildConfigurationList = FB5F63DA1CA26CC6000ABCA5 /* Build configuration list for PBXProject "YUSIR头像截取" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB5F63D61CA26CC6000ABCA5;
+			productRefGroup = FB5F63E01CA26CC6000ABCA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB5F63DE1CA26CC6000ABCA5 /* YUSIR头像截取 */,
+				FB5F63F71CA26CC7000ABCA5 /* YUSIR头像截取Tests */,
+				FB5F64021CA26CC7000ABCA5 /* YUSIR头像截取UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB5F63DD1CA26CC6000ABCA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5F63F21CA26CC7000ABCA5 /* LaunchScreen.storyboard in Resources */,
+				FB5F63EF1CA26CC7000ABCA5 /* Assets.xcassets in Resources */,
+				FB5F63ED1CA26CC7000ABCA5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5F63F61CA26CC7000ABCA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5F64011CA26CC7000ABCA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB5F63DB1CA26CC6000ABCA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5F63EA1CA26CC7000ABCA5 /* ViewController.m in Sources */,
+				FB5F63E71CA26CC7000ABCA5 /* AppDelegate.m in Sources */,
+				FB5F63E41CA26CC7000ABCA5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5F63F41CA26CC7000ABCA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5F63FD1CA26CC7000ABCA5 /* YUSIR____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5F63FF1CA26CC7000ABCA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5F64081CA26CC7000ABCA5 /* YUSIR____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB5F63FA1CA26CC7000ABCA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB5F63DE1CA26CC6000ABCA5 /* YUSIR头像截取 */;
+			targetProxy = FB5F63F91CA26CC7000ABCA5 /* PBXContainerItemProxy */;
+		};
+		FB5F64051CA26CC7000ABCA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB5F63DE1CA26CC6000ABCA5 /* YUSIR头像截取 */;
+			targetProxy = FB5F64041CA26CC7000ABCA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB5F63EB1CA26CC7000ABCA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB5F63EC1CA26CC7000ABCA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB5F63F01CA26CC7000ABCA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB5F63F11CA26CC7000ABCA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB5F640A1CA26CC7000ABCA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB5F640B1CA26CC7000ABCA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB5F640D1CA26CC7000ABCA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "YUSIR头像截取/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yusir.YUSIR----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB5F640E1CA26CC7000ABCA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "YUSIR头像截取/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yusir.YUSIR----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB5F64101CA26CC7000ABCA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "YUSIR头像截取Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yusir.YUSIR----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YUSIR头像截取.app/YUSIR头像截取";
+			};
+			name = Debug;
+		};
+		FB5F64111CA26CC7000ABCA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "YUSIR头像截取Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yusir.YUSIR----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YUSIR头像截取.app/YUSIR头像截取";
+			};
+			name = Release;
+		};
+		FB5F64131CA26CC7000ABCA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "YUSIR头像截取UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yusir.YUSIR----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "YUSIR头像截取";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FB5F64141CA26CC7000ABCA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "YUSIR头像截取UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yusir.YUSIR----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "YUSIR头像截取";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB5F63DA1CA26CC6000ABCA5 /* Build configuration list for PBXProject "YUSIR头像截取" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5F640A1CA26CC7000ABCA5 /* Debug */,
+				FB5F640B1CA26CC7000ABCA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB5F640C1CA26CC7000ABCA5 /* Build configuration list for PBXNativeTarget "YUSIR头像截取" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5F640D1CA26CC7000ABCA5 /* Debug */,
+				FB5F640E1CA26CC7000ABCA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB5F640F1CA26CC7000ABCA5 /* Build configuration list for PBXNativeTarget "YUSIR头像截取Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5F64101CA26CC7000ABCA5 /* Debug */,
+				FB5F64111CA26CC7000ABCA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB5F64121CA26CC7000ABCA5 /* Build configuration list for PBXNativeTarget "YUSIR头像截取UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5F64131CA26CC7000ABCA5 /* Debug */,
+				FB5F64141CA26CC7000ABCA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB5F63D71CA26CC6000ABCA5 /* Project object */;
+}
